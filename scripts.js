@@ -41,6 +41,26 @@ function Recipe(recipeName, imageURL, contributorName, ingredientFilename, direc
   this.dirFile = directionsFilename;
   this.equipFile = equipmentFilename;
   
+  this.displayRecipe = function() {
+    document.querySelector("h1").innerHTML = this.name;
+    
+     document.querySelector("h3").innerHTML = "contributed by: " + this.contributor;
+   document.querySelector("#h1").style.backgroundImage = "url(" + this.imgsrc + ")";
+    
+    
+     loadFileInto(this.ingFile, "ingredients");
+      loadFileInto(this.equipFile, "equipment");
+      loadFileInto(this.dirFile, "directions");
+    
+  }
+  
+  
+  
+  
+  
+ 
+  
+  
   
 }
 
