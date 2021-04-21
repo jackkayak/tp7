@@ -21,6 +21,15 @@ body {
   
 }
 
+#nav {
+  color: black;
+  background-color: whitesmoke;
+  font-size: 80%;
+  width: 100%;
+  padding-right: 2vw;
+  
+}
+
 
 #h1 {
   color: red;
@@ -30,7 +39,7 @@ h3 {
   color: white;
   padding: 0;
   position: absolute;
-  bottom: 16vw;
+  bottom: 13vw;
   left 0;
 }
 
@@ -73,8 +82,9 @@ h3 {
 
 .img-fluid {
   height: 500px;
-  width: 800px;
+  width: 100%;
   display: block;
+ 
 }
 
 
