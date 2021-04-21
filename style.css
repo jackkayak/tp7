@@ -26,6 +26,14 @@ body {
   color: red;
 }
 
+h3 {
+  color: white;
+  padding: 0;
+  position: absolute;
+  bottom: 16vw;
+  left 0;
+}
+
 .list {
   background-color: #D0D6B5;
 }
