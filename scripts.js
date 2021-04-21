@@ -26,7 +26,9 @@ function loadFileInto(fromFile, whereTo) {
 }
 
 
+
 window.onload = function() {
+
   
   loadFileInto("ingredients.html", "column1");
   
@@ -37,11 +39,8 @@ window.onload = function() {
 
 /* Changing Raspberry Header to a bigger font.. Got help from demos and GeeksforGeeks.org */
 
- var h1 = document.getElementById('h1');
+ 
 
- window.onload = function() {
-  h1.style.fontSize = "200px";
- };
 
  /* change font color using click function on h1 to green */
 
