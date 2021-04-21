@@ -27,19 +27,32 @@ function loadFileInto(fromFile, whereTo) {
 
 
 
-window.onload = function() {
 
-  
-  loadFileInto("ingredients.html", "column1");
-  
-  loadFileInto("equipment.html", "column2");
-  
-  loadFileInto("directions.html", "column3");
-};
 
-/* Changing Raspberry Header to a bigger font.. Got help from demos and GeeksforGeeks.org */
 
- 
+
+/* object constructor */
+
+function Recipe(recipeName, imageURL, contributorName, ingredientFilename, directionsFilename, equipmentFilename) {
+  this.name = recipeName;
+  this.imgsrc = imageURL; 
+  this.contributor = contributorName;
+  this.ingFile = ingredientFilename;
+  this.dirFile = directionsFilename;
+  this.equipFile = equipmentFilename;
+  
+  
+}
+
+ RaspberryStreuselTart = new Recipe("Raspberry Streusel Tart", 
+                                   "https://source.unsplash.com/2nAR96Mil_c",
+                                   "Jack",
+                                   "ingredients.html",
+                                   "equipment.html",
+                                    "directions.html"
+                                    
+                                   );
+
 
 
  /* change font color using click function on h1 to green */
