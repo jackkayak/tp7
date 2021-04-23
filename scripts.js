@@ -75,6 +75,25 @@ function Recipe(recipeName, imageURL, contributorName, ingredientFilename, direc
 
 
 
+chicken = new Recipe("Cheesy Buffalo Chicken Dip", 
+ 	"https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F2143192.jpg&w=596&h=596&c=sc&poi=face&q=85",
+ 	"Edison Soliman",
+ 	"chicken-ingredients.html",
+ 	"chicken-equipment.html",
+ 	"chicken-directions.html"
+ );
+
+
+pasta = new Recipe("Spaghetti Aglio e Olio",
+  "https://media4.s-nbcnews.com/i/newscms/2017_41/1288319/20170828_20170822_11424_pastalikeapro_scottconant_styleddishes_0030_6aa19146b263f4803e6a06c1798de5a0.jpg",
+  "Bruno",
+  "pasta-ingredients.html",
+  "pasta-equipment.html",
+  "pasta-directions.html"
+  );
+
+
+
  /* change font color using click function on h1 to green */
 
 
